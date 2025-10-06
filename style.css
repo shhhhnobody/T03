@@ -95,6 +95,13 @@ main h3 {
     align-items: center;
 }
 
+.fun-fact-box img.fact-image {
+  display: block;
+  margin: 10px auto; /* centers the image */
+  max-width: 80%; /* keeps it responsive */
+  height: auto;
+}
+
 /* Make images responsive */
 .responsive-img {
   max-width: 100%;
